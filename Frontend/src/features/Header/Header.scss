@@ -1,0 +1,46 @@
+.header {
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+  .logo img {
+    height: 50px;
+    /* Adjust as needed */
+  }
+
+  .app-name {
+    flex-grow: 1;
+    text-align: center;
+
+    h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      /* Adjust as needed */
+    }
+  }
+
+  .navbar {
+    ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin-left: 1rem;
+
+        a {
+          text-decoration: none;
+          color: white;
+          /* Adjust as needed */
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
