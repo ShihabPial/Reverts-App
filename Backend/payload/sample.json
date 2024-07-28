@@ -1,0 +1,14 @@
+{
+    "_id": "0987654321abcdef09876543",
+    "ID": "789012",
+    "FirstName": "Jane",
+    "LastName": "Smith",
+    "Age": 28,
+    "Gender": "Female",
+    "Location": {
+        "City": "Los Angeles",
+        "State": "CA"
+    },
+    "Email": "jane.smith@example.com",
+    "PhoneNumber": "123-456-7890"
+}
